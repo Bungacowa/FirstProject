@@ -8,6 +8,14 @@ int main()
     std::cout << "Hello World! 2\n";
 }
 
+//ways of initializing vars
+//copy initialization
+int copy = 5;
+//direct initialization
+int direct(6);
+//list initialization
+
+int myList{ 5 };
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
 
