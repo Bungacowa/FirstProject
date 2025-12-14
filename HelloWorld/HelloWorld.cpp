@@ -13,9 +13,11 @@ int main()
 int copy = 5;
 //direct initialization
 int direct(6);
-//list initialization
+//list initialization - initial val of 7
+int myList{ 7 };
+//also this is often used, i.e. if going to take std::cin input
+int myInput{};
 
-int myList{ 5 };
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
 
